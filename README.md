@@ -15,7 +15,12 @@ You need to have the high resolution images for training. In this project, we ha
 ![](Results/model.jpeg)
 
 ## Pre-Trained Model
-We have trained our model upto 100 epochs. Weights can be found from the `Pre Trained Weights/` folder. You can fine tune the parameter and resume the training of the model. To load the model weights, simply provide the path of your weights in the first cell variable `G_weights_load` and `G_weights_load`.  
+We have trained our model upto 100 epochs. Weights can be found from the `Pre Trained Weights/` folder. You can fine tune the parameter and resume the training of the model. To load the model weights, follow the step shown below.
+* Provide the path of your weights in the first cell variable `G_weights_load` and `G_weights_load`.  
+* Uncomment 2 lines i.e line no 16 and 17 in the training cell.
+	* ```netG.load_state_dict(torch.load(G_weights_load))```
+	* ```netD.load_state_dict(torch.load(D_weights_load))```
+  
 
 ## Run
 * Open ipynb file in either google colab. 
