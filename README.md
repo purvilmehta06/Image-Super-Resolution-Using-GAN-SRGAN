@@ -14,6 +14,9 @@ You need to have the high resolution images for training. In this project, we ha
 ## Model/ Architecture 
 ![](Results/model.jpeg)
 
+## Pre-Trained Model
+We have trained our model upto 100 epochs. Weights can be found from the `Pre Trained Weights/` folder. You can fine tune the parameter and resume the training of the model. To load the model weights, simply provide the path of your weights in the first cell variable `G_weights_load` and `G_weights_load`.  
+
 ## Run
 * Open ipynb file in either google colab. 
 * Put the notebook on GPU mode. 
