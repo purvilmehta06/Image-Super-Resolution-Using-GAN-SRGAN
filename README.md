@@ -34,6 +34,6 @@ We have trained our model upto 100 epochs. Weights can be found from the `Pre Tr
 ![](Results/rr3.png)
 
 ## Other colloborators 
-1. Ruchit Vithani
+1. [Ruchit Vithani](https://github.com/ruchit2801)
 2. [Bhargey Mehta](https://github.com/bhargeymehta)
 3. Kushal Shah
